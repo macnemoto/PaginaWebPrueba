@@ -1,9 +1,26 @@
-
-
-
+.container {
+  padding-right: 0; /*15px in bootstrap.css*/
+  padding-left: 0;  /*idem*/
+  margin-right: auto;
+  margin-left: auto;
+}
 body {
-    background: linear-gradient(90deg, rgba(113,58,180,1) 0%, rgba(29,112,253,1) 100%, rgba(252,176,69,1) 100%);
-  }
-  #neko {
-    background: linear-gradient(90deg, rgba(113,58,180,1) 0%, rgba(29,112,253,1) 100%, rgba(252,176,69,1) 100%);
-  }
+  font-family: 'Roboto', sans-serif !important;
+  background: linear-gradient(90deg, rgba(113, 58, 180, 1) 0%, rgba(29, 112, 253, 1) 100%, rgba(252, 176, 69, 1) 100%);
+}
+
+#neko {
+  background: linear-gradient(90deg, rgba(113, 58, 180, 1) 0%, rgba(29, 112, 253, 1) 100%, rgba(252, 176, 69, 1) 100%);
+}
+
+#colorA {
+  color: aliceblue ;
+}
+.btn-success2{
+  background-color: rgb(139, 206, 101);
+  border-radius: 24px;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
