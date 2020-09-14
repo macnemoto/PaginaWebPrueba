@@ -1,12 +1,10 @@
-.container {
-  padding-right: 0; /*15px in bootstrap.css*/
-  padding-left: 0;  /*idem*/
-  margin-right: auto;
-  margin-left: auto;
+*{
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: 'Roboto', sans-serif !important;
-  background: linear-gradient(90deg, rgba(113, 58, 180, 1) 0%, rgba(29, 112, 253, 1) 100%, rgba(252, 176, 69, 1) 100%);
+  background: white;
 }
 
 #neko {
@@ -35,9 +33,10 @@ body {
 }
 
 .reducirimagen{
-  width: 110%;
-  height: 125%;
+  width: 100%;
+  height: 100%;
   padding-top: 10%;
+  
  
 }
 
@@ -53,4 +52,35 @@ body {
   background-color: rgb(86, 34, 146);
   color: aliceblue;
   
+}
+.colorblanco {
+background: white;
+height: 50vh;
+ 
+}
+.nekopruebas {
+  background: linear-gradient(90deg, rgba(113, 58, 180, 1) 0%, rgba(29, 112, 253, 1) 100%, rgba(252, 176, 69, 1) 100%);
+  border-bottom-left-radius: 50px 38%;
+  border-bottom-right-radius: 50px 58%;
+} 
+.mover{
+  padding-right: 20px;
+}
+.tamañoIconos {
+  margin-top: 20%;
+  width: 30%;
+  height: 30%;
+  display:block;
+  margin:auto;
+
+}
+.alinerTexto{
+  text-align: center;
+}
+.justificar{
+  text-align: center;
+}
+.nekopading {
+padding-top: 8%;
+
 }
