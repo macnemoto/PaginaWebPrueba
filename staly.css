@@ -64,14 +64,15 @@ height: 50vh;
   border-bottom-right-radius: 50px 58%;
 } 
 .mover{
-  padding-right: 20px;
+  /*padding-right: 20px;*/
 }
 .tamañoIconos {
-  margin-top: 20%;
   width: 30%;
   height: 30%;
   display:block;
   margin:auto;
+  margin-bottom: 8%;
+  margin-top: 15%;
 
 }
 .alinerTexto{
@@ -79,6 +80,8 @@ height: 50vh;
 }
 .justificar{
   text-align: center;
+  margin-bottom: 15%;
+  color: grey;
 }
 .nekopading {
 padding-top: 8%;
